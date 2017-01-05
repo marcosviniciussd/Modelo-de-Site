@@ -1,0 +1,58 @@
+/* Topo da Pagina */
+/*Menu*/
+.collapse .navbar-collapse ul li a
+{
+    font-size: 1.2em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+/*Titulo da pagina*/
+.home
+{
+  margin: 0;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 12%;
+  background-image: url("/css/img/imagem005.jpg");
+}
+
+.titulo
+{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 4em;
+}
+
+.slogan
+{
+    font-family: 'Arima Madurai', cursive;
+}
+
+/* Subtitulos da pagina */
+.subtitulo
+{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 3%;
+}
+
+/*Quem Somos*/
+.texto
+{
+    font-size: 1.4em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 3%;
+}
+
+.imagens-quem-somos
+{
+    padding-bottom: 3%;
+}
+
+.robotica
+{
+    display: inline;
+}
