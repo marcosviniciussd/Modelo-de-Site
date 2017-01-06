@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 06/01/2017 03:01
+  	Creation date: 06/01/2017 13:29
   	*/
 
 @font-face {
@@ -29,6 +29,28 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-magnifying-glass:before { content: "\f100"; }
-.flaticon-phone-call:before { content: "\f101"; }
-.flaticon-settings:before { content: "\f102"; }
+.flaticon-avatar:before { content: "\f100"; }
+.flaticon-book:before { content: "\f101"; }
+.flaticon-chat:before { content: "\f102"; }
+.flaticon-chat-1:before { content: "\f103"; }
+.flaticon-garbage:before { content: "\f104"; }
+.flaticon-headphones:before { content: "\f105"; }
+.flaticon-headphones-1:before { content: "\f106"; }
+.flaticon-house:before { content: "\f107"; }
+.flaticon-link:before { content: "\f108"; }
+.flaticon-magnifying-glass:before { content: "\f109"; }
+.flaticon-next:before { content: "\f10a"; }
+.flaticon-padlock:before { content: "\f10b"; }
+.flaticon-paper-plane:before { content: "\f10c"; }
+.flaticon-phone-call:before { content: "\f10d"; }
+.flaticon-photo-camera:before { content: "\f10e"; }
+.flaticon-pie-chart:before { content: "\f10f"; }
+.flaticon-piggy-bank:before { content: "\f110"; }
+.flaticon-reload:before { content: "\f111"; }
+.flaticon-settings:before { content: "\f112"; }
+.flaticon-settings-1:before { content: "\f113"; }
+.flaticon-share:before { content: "\f114"; }
+.flaticon-shuffle:before { content: "\f115"; }
+.flaticon-speaker:before { content: "\f116"; }
+.flaticon-tag:before { content: "\f117"; }
+.flaticon-truck:before { content: "\f118"; }

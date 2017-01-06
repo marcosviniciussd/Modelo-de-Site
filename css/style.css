@@ -1,14 +1,15 @@
 /* Topo da Pagina */
 /*Menu*/
-.navbar-default .navbar-nav>li>a
+nav.navbar-default .navbar-nav>li>a
 {
     color: #777;
     font-size: 1.2em;
     font-family: 'Ubuntu Condensed', sans-serif;
     text-transform: uppercase;
 }
+
 /*Titulo da pagina*/
-.home
+section.home
 {
   margin: 0;
   height: 100%;
@@ -17,7 +18,7 @@
   background-image: url("/css/img/imagem005.jpg");
 }
 
-.titulo
+h1.titulo
 {
     padding-top: 10%;
     padding-bottom: 5%;
@@ -25,13 +26,13 @@
     font-size: 4em;
 }
 
-.slogan
+h4.slogan
 {
     font-family: 'Arima Madurai', cursive;
 }
 
 /* Subtitulos da pagina */
-.subtitulo
+h2.subtitulo
 {
     text-transform: uppercase;
     font-weight: normal;
@@ -41,23 +42,57 @@
 }
 
 /*Quem Somos*/
-.texto
+p.texto
 {
     font-size: 1.4em;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 3%;
     font-weight: normal;
 }
 
-.imagens-quem-somos
+/* Formatação de imagens com legendas */
+figure.imagens-quem-somos
 {
-    padding-bottom: 3%;
+    position: relative;
+    border: 8px solid #FFFFFF;
+    box-shadow: 1px 1px 4px #000000;
 }
 
-.robotica
+figure.imagens-quem-somos img
+{
+    width: 100%;
+    height: 100%;
+}
+
+figure.imagens-quem-somos figcaption
+{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.imagens-quem-somos:hover figcaption
+{
+    opacity: 1;
+}
+/*.imagens-quem-somos
+{
+    padding-bottom: 3%;
+}*/
+
+div.robotica
 {
     display: inline;
 }
+
+/* Serviços*/
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after
 {
@@ -68,11 +103,26 @@
     margin: 0!important;
 }
 
-.border-icon
+div.border-icon
 {
     border: 2px solid #ccc;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     text-align: center;
+}
+
+div.servicos
+{
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h4.texto-servicos
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #424242;
 }
