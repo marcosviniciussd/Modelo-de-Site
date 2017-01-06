@@ -1,12 +1,12 @@
 /* Topo da Pagina */
 /*Menu*/
-.collapse .navbar-collapse ul li a
+.navbar-default .navbar-nav>li>a
 {
+    color: #777;
     font-size: 1.2em;
     font-family: 'Ubuntu Condensed', sans-serif;
     text-transform: uppercase;
 }
-
 /*Titulo da pagina*/
 .home
 {
@@ -34,8 +34,9 @@
 .subtitulo
 {
     text-transform: uppercase;
-    font-weight: lighter;
-    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Open Sans Condensed', sans-serif;
     padding-bottom: 3%;
 }
 
@@ -45,6 +46,7 @@
     font-size: 1.4em;
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 3%;
+    font-weight: normal;
 }
 
 .imagens-quem-somos
@@ -55,4 +57,22 @@
 .robotica
 {
     display: inline;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after
+{
+    font-size: 65px!important;
+    color: #cecece;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0!important;
+}
+
+.border-icon
+{
+    border: 2px solid #ccc;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
 }
