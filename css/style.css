@@ -288,3 +288,117 @@ ol, ul
 {
     padding-bottom: 5%;
 }
+
+div.border-sociais
+{
+    border: 2px solid #CCCCCC;
+    height: 60px;
+    width: 60px;
+    border-radius: 5%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+i.flaticon-facebook-logo-outline
+{
+    text-align: center!important;
+    vertical-align: middle!important;
+}
+
+i.icon-md::before
+{
+    font-size: 3em!important;
+
+}
+
+p.texto-footer
+{
+    padding-bottom: 5%;
+}
+
+.footer-text.footer-texto-email a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    /*color: #FFFFFF!important;*/
+    /*color: #337aAB7;*/
+}
+
+.footer-text.footer-texto-email a:hover
+{
+    text-decoration: none;
+    color: #337AB7;
+}
+
+.footer-texto-noticias a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-texto-noticias a:hover
+{
+    text-decoration: none;
+    color: #337AB7;
+}
+
+.footer-texto-links a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-texto-links a:hover
+{
+    text-decoration: none;
+    color: #337AB7;
+}
+
+li.footer-sprite
+{
+    padding-bottom: 0%
+}
+
+#footer address .footer-sprite
+{
+    margin-bottom: 10px;
+    padding-left: 0px;
+    /*background: url("../img/footer_sprite.png") no-repeat 0 0 !important;*/
+}
+.icon-footer
+{
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.footer-text
+{
+    padding: 5px;
+    margin: 20px;
+
+}
+
+
+#footer address .footer-sprite.address
+{
+    background-position: 0 0;
+}
+
+.validate
+{
+    padding-bottom: 8%;
+}
+
+div.copyright
+{
+    padding-top: 10%;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+}
+
+/*cores principais
+
+#449d44
+#337AB7
+
+*/

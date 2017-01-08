@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/icons-flaticon/font/flaticon.css">
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Philosopher|Rambla|Ruda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icons-flaticon/font/flaticon.css">
+
+
 
     <title>System Robots</title>
 
@@ -274,19 +277,29 @@
                     <div class="row">
                         <div class="col-md-3">
                             <h4 class="subtitulo-footer">System Robots</h4>
+                            <p class="texto-footer"> A tecnologia fazendo a diferença no que é mais importante para você.</p>
 
                             <address>
                                 <ul class="list-unstyled">
                                     <li class="footer-sprite address">
-                                        Rua Francisco Fava 425<br>
-                                        Edifício Santa Marta, Universitário<br>
-                                        Uberaba Minas Gerais<br>
+                                        <i class="fa fa-map-marker fa-lg pull-left icon-footer"></i>
+                                        <div class="footer-text">
+                                            Rua Francisco Fava 425<br>
+                                            Edifício Santa Marta, Universitário<br>
+                                            Uberaba Minas Gerais<br>
+                                        </div>
                                     </li>
                                     <li class="footer-sprite phone">
-                                        Phone: 34 3311-2813
+                                        <i class="fa fa-phone fa-lg pull-left icon-footer"></i>
+                                        <div class="footer-text">
+                                            Phone: 34 3311-2813
+                                        </div>
                                     </li>
                                     <li class="footer-sprite email">
-                                        <a href="mailto:support@yourname.com">eng.comp121@gmail.com</a>
+                                        <i class="fa fa-envelope fa-lg pull-left icon-footer"></i>
+                                        <div class="footer-text footer-texto-email">
+                                            <a href="mailto:support@yourname.com">eng.comp121@gmail.com</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </address>
@@ -297,15 +310,23 @@
                             <h4 class="letter-spacing-1 subtitulo-footer">ultimas Notícias</h4>
                             <ul class="footer-posts list-unstyled">
                                 <li class="noticias">
-                                    <a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
+                                    <div class="footer-texto-noticias">
+                                        <a href="#">System Robots abre inscrição para programa Universitário Ativo</a>
+                                    </div>
                                     <small>29 June 2015</small>
                                 </li>
+
                                 <li class="noticias">
-                                    <a href="#">Nullam id dolor id nibh ultricies</a>
+                                    <div class="footer-texto-noticias">
+                                        <a href="#">A System Robots está contratando 52 Engenheiros para Projetos</a>
+                                    </div>
                                     <small>29 June 2015</small>
                                 </li>
+
                                 <li class="noticias">
-                                    <a href="#">Duis mollis, est non commodo luctus</a>
+                                    <div class="footer-texto-noticias">
+                                        <a href="#">Nova Tecnologia da System Robots Ganha data de lançamento no Brasil</a>
+                                    </div>
                                     <small>29 June 2015</small>
                                 </li>
                             </ul>
@@ -314,13 +335,13 @@
                         <div class="col-md-2">
                             <h4 class="letter-spacing-1 subtitulo-footer">Explore a System Robots</h4>
                             <ul class="footer-links list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Quem Somos</a></li>
-                                <li><a href="#">História</a></li>
-                                <li><a href="#">Projetos</a></li>
-                                <li><a href="#">Serviços</a></li>
-                                <li><a href="#">Equipe</a></li>
-                                <li><a href="#">Contato</a></li>
+                                <li class="footer-texto-links"><a href="#">Home</a></li>
+                                <li class="footer-texto-links"><a href="#">Quem Somos</a></li>
+                                <li class="footer-texto-links"><a href="#">História</a></li>
+                                <li class="footer-texto-links"><a href="#">Projetos</a></li>
+                                <li class="footer-texto-links"><a href="#">Serviços</a></li>
+                                <li class="footer-texto-links"><a href="#">Equipe</a></li>
+                                <li class="footer-texto-links"><a href="#">Contato</a></li>
                             </ul>
                         </div>
 
@@ -331,7 +352,7 @@
                             <form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right" novalidate="novalidate">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+                                    <input type="email" id="email" name="email" class="form-control required" placeholder="marcos.damasceno@hotmail.com">
                                     <span class="input-group-btn">
                                         <button class="btn btn-success" type="submit">Increver</button>
                                     </span>
@@ -339,49 +360,47 @@
                                 <input type="hidden" name="is_ajax" value="true"></form>
 
                                 <div class="margin-top-20">
-                                    <a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                    <div class="border-sociais">
+                                        <a href="#" class="social-icon social-icon-border social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
 
-                                        <i class="flaticon-facebook-logo-outline"></i>
-                                        <!-- <i class="flaticon-facebook-logo-outline"></i> -->
-                                    </a>
+                                            <i class="flaticon-facebook-logo-outline icon-md"></i>
+                                            <!-- <i class="flaticon-facebook-logo-outline"></i> -->
+                                        </a>
+                                    </div>
 
-                                    <a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
-                                        <i class="flaticon-twitter-social-outlined-logo"></i>
-                                        <!-- <i class="icon-twitter"></i> -->
-                                    </a>
+                                    <div class="border-sociais">
+                                        <a href="#" class="social-icon social-icon-border social-gplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google plus">
+                                            <i class="flaticon-google-plus-outlined-logo-social-symbol icon-md"></i>
+                                            <!-- <i class="icon-gplus"></i> -->
+                                        </a>
+                                    </div>
 
-                                    <a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google plus">
-                                        <i class="flaticon-google-plus-outlined-logo-social-symbol"></i>
-                                        <!-- <i class="icon-gplus"></i> -->
-                                    </a>
+                                    <div class="border-sociais">
+                                        <a href="#" class="social-icon social-icon-border social-linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                            <i class="flaticon-linkedin-social-outline-logotype icon-md"></i>
+                                            <!-- <i class="icon-linkedin"></i> -->
+                                        </a>
+                                    </div>
 
-                                    <a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
-                                        <i class="flaticon-linkedin-social-outline-logotype"></i>
-                                        <!-- <i class="icon-linkedin"></i> -->
-                                    </a>
-
-                                    <a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="" data-original-title="Rss">
-                                        <i class="flaticon-github"></i>
-                                        <!-- <i class="icon-rss"></i> -->
-                                    </a>
-
+                                    <div class="border-sociais">
+                                        <a href="#" class="social-icon social-icon-border" data-toggle="tooltip" data-placement="top" title="" data-original-title="Rss">
+                                            <i class="flaticon-github icon-md"></i>
+                                            <!-- <i class="icon-rss"></i> -->
+                                        </a>
+                                    </div>
                                 </div>
-                                <!-- /Social Icons -->
-
                             </div>
-
                         </div>
-
                     </div>
 
                     <div class="copyright">
                         <div class="container">
                             <ul class="pull-right nomargin list-inline mobile-block">
-                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Termos &amp; Condições</a></li>
                                 <li>•</li>
-                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Privado</a></li>
                             </ul>
-                            © All Rights Reserved, Company LTD
+                            © Todos os direitos reservados, Marcos Damasceno
                         </div>
                     </div>
                 </footer>
