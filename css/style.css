@@ -1,5 +1,7 @@
-/* Topo da Pagina */
-/*Menu*/
+@@charset "UTF-8";
+
+/* Configuração da Pagina*/
+
 body
 {
     margin: 0;
@@ -13,7 +15,10 @@ section.section
 {
     padding: 100px 0px;
 }
-nav.navbar-default .navbar-nav>li>a
+
+/* Menu */
+
+nav.navbar-default .navbar-nav li a
 {
     color: #777777;
     font-size: 1.2em;
@@ -22,6 +27,7 @@ nav.navbar-default .navbar-nav>li>a
 }
 
 /*Titulo da pagina*/
+
 section.home
 {
   margin: 0;
@@ -44,26 +50,61 @@ h4.slogan
     font-family: 'Arima Madurai', cursive;
 }
 
+section#inicio
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
+
 /* Subtitulos da pagina */
+
 h2.subtitulo
 {
     text-transform: uppercase;
     font-weight: normal;
     /*font-family: 'Josefin Sans', sans-serif;*/
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
     padding-bottom: 3%;
 }
 
+/*Bem Vindo */
+section#bem-vindo
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+    /*background-color: #449D44;*/
+}
+
+h4.frase-bem-vindo
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+
+p.texto-bem-vindo
+{
+    font-family: 'Releway', sans-serif;
+    font-size: 2em;
+}
+
 /*Quem Somos*/
+
+section#quem-somos
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
+
 p.texto
 {
-    font-size: 1.2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    /*font-family: 'Roboto', sans-serif;*/
     margin: 3%;
     font-weight: normal;
 }
 
 /* Formatação de imagens com legendas */
+
 figure.imagens-quem-somos
 {
     position: relative;
@@ -95,10 +136,6 @@ figure.imagens-quem-somos:hover figcaption
 {
     opacity: 1;
 }
-/*.imagens-quem-somos
-{
-    padding-bottom: 3%;
-}*/
 
 div.robotica
 {
@@ -111,16 +148,10 @@ section#nossa-historia
 {
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: #CE93D8;
+    background-color: ##449D44;
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
 }
 
-/*Nossos Projetos*/
-
-section#nossos-projetos
-{
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: #ECEFF1;
 }
 .btn, .btn-lg
 {
@@ -139,10 +170,44 @@ section#nossos-projetos
     color: #FCFCFC;
     background-color: #039BE5;
     transition: background-color 1s;
+    /*#449D44*/
 }
 
+/*Nossos Projetos*/
 
-/* Serviços*/
+section#nossos-projetos
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #ECEFF1;
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
+.btn, .btn-lg
+{
+    border-radius: 0px;
+}
+
+.btn-custom
+{
+    border: 2px solid #039BE5;
+    background-color: transparent;
+    color: #444444;
+}
+
+.btn-custom:hover
+{
+    color: #FCFCFC;
+    background-color: #039BE5;
+    transition: background-color 1s;
+    /*#449D44*/
+}
+
+/* Nossos Serviços*/
+
+section#nossos-servicos
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after
 {
@@ -215,40 +280,21 @@ div.conteudo:hover h4.texto-servicos
     transition: background-color 1s;
 }
 
+/* Nossa Equipe*/
+
+section#nossa-equipe
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
+
+/* Nosso Contato*/
+
+section#nosso-contato
+{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+}
 
 /* Footer */
-
-#footer>.container
-{
-    padding-top: 60px;
-    margin-bottom: 60px;
-}
-
-.container
-{
-    position: relative;
-}
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: 2%;
-    margin-left: 4%;
-}
-
-/*@media (min-width: 768px)
-{
-    .container
-    {
-        width: 750px;
-    }
-}*/
-
-
-div
-{
-    display: block;
-}
 
 #footer {
     color: rgba(255,255,255,0.6);
@@ -260,7 +306,29 @@ div
     background: -ms-linear-gradient(top, #555555 0%, #313131 100%);
     /*background: linear-gradient(to bottom, #555555 0%,#313131 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#313131',GradientType=0 );
+    padding-top: 3%;
 }
+
+#footer>.container
+{
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+div
+{
+    display: block;
+}
+
+
 
 h4.subtitulo-footer
 {
@@ -273,7 +341,8 @@ h4.subtitulo-footer
 }
 
 
-.list-unstyled {
+.list-unstyled
+{
     padding-left: 0;
     list-style: none;
 }
@@ -320,8 +389,6 @@ p.texto-footer
 {
     text-decoration: none;
     color: rgba(255,255,255,0.6);
-    /*color: #FFFFFF!important;*/
-    /*color: #337aAB7;*/
 }
 
 .footer-text.footer-texto-email a:hover
@@ -363,8 +430,8 @@ li.footer-sprite
 {
     margin-bottom: 10px;
     padding-left: 0px;
-    /*background: url("../img/footer_sprite.png") no-repeat 0 0 !important;*/
 }
+
 .icon-footer
 {
     margin-top: 10px;
@@ -398,7 +465,7 @@ div.copyright
 
 /*cores principais
 
-#449d44
+#449D44
 #337AB7
 
 */
