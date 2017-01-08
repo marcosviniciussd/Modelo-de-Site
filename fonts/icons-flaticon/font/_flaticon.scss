@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 06/01/2017 13:29
+    Creation date: 08/01/2017 12:37
     */
 
     @font-face {
@@ -36,54 +36,84 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-avatar:before { content: "\f100"; }
-.flaticon-book:before { content: "\f101"; }
-.flaticon-chat:before { content: "\f102"; }
-.flaticon-chat-1:before { content: "\f103"; }
-.flaticon-garbage:before { content: "\f104"; }
-.flaticon-headphones:before { content: "\f105"; }
-.flaticon-headphones-1:before { content: "\f106"; }
-.flaticon-house:before { content: "\f107"; }
-.flaticon-link:before { content: "\f108"; }
-.flaticon-magnifying-glass:before { content: "\f109"; }
-.flaticon-next:before { content: "\f10a"; }
-.flaticon-padlock:before { content: "\f10b"; }
-.flaticon-paper-plane:before { content: "\f10c"; }
-.flaticon-phone-call:before { content: "\f10d"; }
-.flaticon-photo-camera:before { content: "\f10e"; }
-.flaticon-pie-chart:before { content: "\f10f"; }
-.flaticon-piggy-bank:before { content: "\f110"; }
-.flaticon-reload:before { content: "\f111"; }
-.flaticon-settings:before { content: "\f112"; }
-.flaticon-settings-1:before { content: "\f113"; }
-.flaticon-share:before { content: "\f114"; }
-.flaticon-shuffle:before { content: "\f115"; }
-.flaticon-speaker:before { content: "\f116"; }
-.flaticon-tag:before { content: "\f117"; }
-.flaticon-truck:before { content: "\f118"; }
+    .flaticon-android-social-outlined-logo:before { content: "\f100"; }
+.flaticon-apple-social-logo-outline:before { content: "\f101"; }
+.flaticon-avatar:before { content: "\f102"; }
+.flaticon-blogger-letter-logo-outline:before { content: "\f103"; }
+.flaticon-book:before { content: "\f104"; }
+.flaticon-chat:before { content: "\f105"; }
+.flaticon-chat-1:before { content: "\f106"; }
+.flaticon-facebook-logo-outline:before { content: "\f107"; }
+.flaticon-garbage:before { content: "\f108"; }
+.flaticon-gdrive-outlined-logo:before { content: "\f109"; }
+.flaticon-github:before { content: "\f10a"; }
+.flaticon-google-plus-outlined-logo-social-symbol:before { content: "\f10b"; }
+.flaticon-headphones:before { content: "\f10c"; }
+.flaticon-headphones-1:before { content: "\f10d"; }
+.flaticon-house:before { content: "\f10e"; }
+.flaticon-instagram-social-outlined-logo:before { content: "\f10f"; }
+.flaticon-link:before { content: "\f110"; }
+.flaticon-linkedin-social-outline-logotype:before { content: "\f111"; }
+.flaticon-magnifying-glass:before { content: "\f112"; }
+.flaticon-next:before { content: "\f113"; }
+.flaticon-padlock:before { content: "\f114"; }
+.flaticon-paper-plane:before { content: "\f115"; }
+.flaticon-phone-call:before { content: "\f116"; }
+.flaticon-photo-camera:before { content: "\f117"; }
+.flaticon-pie-chart:before { content: "\f118"; }
+.flaticon-piggy-bank:before { content: "\f119"; }
+.flaticon-reload:before { content: "\f11a"; }
+.flaticon-settings:before { content: "\f11b"; }
+.flaticon-settings-1:before { content: "\f11c"; }
+.flaticon-share:before { content: "\f11d"; }
+.flaticon-share-button-outline:before { content: "\f11e"; }
+.flaticon-shuffle:before { content: "\f11f"; }
+.flaticon-skype-social-outlined-logo:before { content: "\f120"; }
+.flaticon-speaker:before { content: "\f121"; }
+.flaticon-tag:before { content: "\f122"; }
+.flaticon-truck:before { content: "\f123"; }
+.flaticon-twitter-social-outlined-logo:before { content: "\f124"; }
+.flaticon-vimeo-letter-logo-outline:before { content: "\f125"; }
+.flaticon-windows-social-outlined-logotype:before { content: "\f126"; }
+.flaticon-youtube-play-button-outlined-social-symbol:before { content: "\f127"; }
     
-    $font-Flaticon-avatar: "\f100";
-    $font-Flaticon-book: "\f101";
-    $font-Flaticon-chat: "\f102";
-    $font-Flaticon-chat-1: "\f103";
-    $font-Flaticon-garbage: "\f104";
-    $font-Flaticon-headphones: "\f105";
-    $font-Flaticon-headphones-1: "\f106";
-    $font-Flaticon-house: "\f107";
-    $font-Flaticon-link: "\f108";
-    $font-Flaticon-magnifying-glass: "\f109";
-    $font-Flaticon-next: "\f10a";
-    $font-Flaticon-padlock: "\f10b";
-    $font-Flaticon-paper-plane: "\f10c";
-    $font-Flaticon-phone-call: "\f10d";
-    $font-Flaticon-photo-camera: "\f10e";
-    $font-Flaticon-pie-chart: "\f10f";
-    $font-Flaticon-piggy-bank: "\f110";
-    $font-Flaticon-reload: "\f111";
-    $font-Flaticon-settings: "\f112";
-    $font-Flaticon-settings-1: "\f113";
-    $font-Flaticon-share: "\f114";
-    $font-Flaticon-shuffle: "\f115";
-    $font-Flaticon-speaker: "\f116";
-    $font-Flaticon-tag: "\f117";
-    $font-Flaticon-truck: "\f118";
+    $font-Flaticon-android-social-outlined-logo: "\f100";
+    $font-Flaticon-apple-social-logo-outline: "\f101";
+    $font-Flaticon-avatar: "\f102";
+    $font-Flaticon-blogger-letter-logo-outline: "\f103";
+    $font-Flaticon-book: "\f104";
+    $font-Flaticon-chat: "\f105";
+    $font-Flaticon-chat-1: "\f106";
+    $font-Flaticon-facebook-logo-outline: "\f107";
+    $font-Flaticon-garbage: "\f108";
+    $font-Flaticon-gdrive-outlined-logo: "\f109";
+    $font-Flaticon-github: "\f10a";
+    $font-Flaticon-google-plus-outlined-logo-social-symbol: "\f10b";
+    $font-Flaticon-headphones: "\f10c";
+    $font-Flaticon-headphones-1: "\f10d";
+    $font-Flaticon-house: "\f10e";
+    $font-Flaticon-instagram-social-outlined-logo: "\f10f";
+    $font-Flaticon-link: "\f110";
+    $font-Flaticon-linkedin-social-outline-logotype: "\f111";
+    $font-Flaticon-magnifying-glass: "\f112";
+    $font-Flaticon-next: "\f113";
+    $font-Flaticon-padlock: "\f114";
+    $font-Flaticon-paper-plane: "\f115";
+    $font-Flaticon-phone-call: "\f116";
+    $font-Flaticon-photo-camera: "\f117";
+    $font-Flaticon-pie-chart: "\f118";
+    $font-Flaticon-piggy-bank: "\f119";
+    $font-Flaticon-reload: "\f11a";
+    $font-Flaticon-settings: "\f11b";
+    $font-Flaticon-settings-1: "\f11c";
+    $font-Flaticon-share: "\f11d";
+    $font-Flaticon-share-button-outline: "\f11e";
+    $font-Flaticon-shuffle: "\f11f";
+    $font-Flaticon-skype-social-outlined-logo: "\f120";
+    $font-Flaticon-speaker: "\f121";
+    $font-Flaticon-tag: "\f122";
+    $font-Flaticon-truck: "\f123";
+    $font-Flaticon-twitter-social-outlined-logo: "\f124";
+    $font-Flaticon-vimeo-letter-logo-outline: "\f125";
+    $font-Flaticon-windows-social-outlined-logotype: "\f126";
+    $font-Flaticon-youtube-play-button-outlined-social-symbol: "\f127";
